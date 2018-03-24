@@ -6,6 +6,8 @@ import { page } from "./components/page";
 import { appshell } from "./components/appshell";
 import { sidebar } from "./components/sidebar";
 import { content } from "./components/content";
+import { content_technology } from "./components/content-technology";
+import { content_rybar_cv } from "./components/content-rybar-cv";
 
 function HTML(file: string, jsonmls: JsonMLs, pretty = false): void {
     const path = __dirname + "/../../dist/" + file;
@@ -15,31 +17,31 @@ function HTML(file: string, jsonmls: JsonMLs, pretty = false): void {
 }
 
 
-const site = "Peter Rybar";
+const siteTitle = "Peter Rybar";
 
 HTML("index.html",
-    page(site,
-        appshell(site, "Index",
+    page(siteTitle,
+        appshell(siteTitle, "CV",
             sidebar("index.html"),
-            content("Index Title", "name index")
+            content_rybar_cv()
         )
     ),
     true
 );
 
-HTML("overview.html",
-    page(site,
-        appshell(site, "Overview",
-            sidebar("overview.html"),
-            content("Overview Title", "name overview")
+HTML("technology.html",
+    page(siteTitle,
+        appshell(siteTitle, "Technology",
+            sidebar("technology.html"),
+            content_technology()
         )
     ),
     true
 );
 
 HTML("views.html",
-    page(site,
-        appshell(site, "Views",
+    page(siteTitle,
+        appshell(siteTitle, "Views",
             sidebar("views.html"),
             content("Views Title", "name views")
         )
@@ -48,8 +50,8 @@ HTML("views.html",
 );
 
 HTML("news.html",
-    page(site,
-        appshell(site, "News",
+    page(siteTitle,
+        appshell(siteTitle, "News",
             sidebar("news.html"),
             content("News Title", "name news")
         )
@@ -58,8 +60,8 @@ HTML("news.html",
 );
 
 HTML("settings.html",
-    page(site,
-        appshell(site, "Settings",
+    page(siteTitle,
+        appshell(siteTitle, "Settings",
             sidebar("settings.html"),
             content("Settings Title", "name settings")
         )

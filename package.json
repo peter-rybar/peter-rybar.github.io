@@ -34,9 +34,9 @@
     "server": "http-server dist/",
     "start": "npm run dist; run-p -r static:watch build:watch server",
     "gh-pages:dist": "cpx './dist/**/!(*.map)' 'gh-pages/' -u -v",
-    "gh-pages:deploy": "git subtree push --prefix gh-pages origin gh-pages",
-    "gh-pages:undeploy": "git push origin --delete gh-pages; git branch -D gh-pages",
-    "deploy": "npm run gh-pages:undeploy; git checkout -b gh-pages && run-s dist gh-pages:dist && git add gh-pages && git commit -m gh-pages && npm run gh-pages:deploy && git checkout master"
+    "gh-pages:deploy": "git subtree push --prefix gh-pages origin master",
+    "gh-pages:undeploy": "git push origin --delete master; git branch -D master",
+    "deploy": "npm run gh-pages:undeploy; git checkout -b master && run-s dist gh-pages:dist && git add gh-pages && git commit -m gh-pages && npm run gh-pages:deploy && git checkout master"
   },
   "repository": {
     "type": "git",

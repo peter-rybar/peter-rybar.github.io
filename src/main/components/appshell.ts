@@ -18,7 +18,7 @@ export function appshell(title: string,
                 ["strong",
                     ["a", { href: "./", style: "text-decoration: none;" }, title]
                 ],
-                ["span", title1 ? ` - ${title1}` : ""],
+                ["span", title1 ? ` - ${title1}` : " "],
             ],
             ["span.w3-bar-item.w3-right",
                 ["a",
@@ -52,7 +52,7 @@ export function appshell(title: string,
             {
                 style: "margin-left:300px;margin-top:43px;"
             },
-            ["div#content.w3-container",
+            ["div#content.w3-container-",
                 ...content
             ]
         ],
