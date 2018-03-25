@@ -36,7 +36,7 @@
     "gh-pages:dist": "cpx './dist/**/!(*.map)' 'gh-pages/' -u -v",
     "gh-pages:deploy": "git subtree push --prefix gh-pages origin master",
     "gh-pages:undeploy": "git push origin --delete master; git branch -D master",
-    "deploy": "npm run gh-pages:undeploy; git checkout -b master && run-s dist gh-pages:dist && git add gh-pages && git commit -m gh-pages && npm run gh-pages:deploy && git checkout master"
+    "deploy": "npm run gh-pages:undeploy; git checkout -b master && run-s dist gh-pages:dist && git add gh-pages && git commit -m gh-pages && npm run gh-pages:deploy && git checkout develop"
   },
   "repository": {
     "type": "git",
