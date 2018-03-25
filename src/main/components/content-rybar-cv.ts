@@ -41,14 +41,14 @@ export function content_rybar_cv(): JsonMLs {
                 ]
             ],
             ["div.w3-container.w3-card.w3-white.w3-margin",
-                ["h2", "Professonal background"],
+                ["h2", "Professional background"],
                 ["div.w3-row",
                     ["div.w3-container.w3-half",
                         ["h3", "Experiences"],
                         ["ul",
                             ["li", "IT solutions analysis and design (SOA, ROA, REST)"],
-                            ["li", "Project management and team leadership (Java, PHP, Python, C/C++)"],
-                            ["li", "Web applications and web services development (Java, Python, PHP, HTML5, XHTML, CSS, AJAX, JSON)"],
+                            ["li", "Project management and team leadership (Java, Typescript/Javascript, PHP, Python, C/C++)"],
+                            ["li", "Web applications and web services development (Java, Typescript/Javascript, Python, PHP, HTML5, XHTML, CSS, AJAX, JSON)"],
                             ["li", "Client-server and network applications development (C/C++)"],
                             ["li", "Desktop applications development (GTK+, gtkmm, PyGTK, QT)"],
                             ["li", "Linguistic full-text search engine development (Python, C)"],
@@ -61,12 +61,13 @@ export function content_rybar_cv(): JsonMLs {
                     ["div.w3-container.w3-half",
                         ["h3", "Job positions"],
                         ["ul",
+                            ["li", "CTO"],
                             ["li", "IT consultant"],
                             ["li", "Solutions architect"],
                             ["li", "HR consultant for IT sector"],
                             ["li", "IT architect"],
                             ["li", "IT analyst"],
-                            ["li", "Company main developer"],
+                            ["li", "Company lead developer"],
                             ["li", "Project leader/manager"],
                             ["li", "Web applications developer"],
                             ["li", "GUI Application developer"],
@@ -80,7 +81,8 @@ export function content_rybar_cv(): JsonMLs {
                     ["div.w3-container.w3-half",
                         ["h3", "Partners and Projects"],
                         ["ul",
-                            ["li", "VECTARY.com - Poject VECTARY 3D engine - online 3D modeling tool"],
+                            ["li", "TREETI.com (DECENT Go) - Blockchain ", ["abbr", { title: "Video on demand" }, `VOD`], "distributiont platform"],
+                            ["li", "DECENT.ch - Decentralized Blockchain/IPFS content distributiont"],
                             ["li", "Game Server provider architecture and implementation including REST services. HTML5 slot games technology stack introduced."],
                             ["li", "DAVINCIsoftware.sk - Project DTA v2 (Document Text Analyser), architecture and implementation of new generation data extraction engine."],
                             ["li", "pelicantravel.com s.r.o. - new intranet and extranet solution, architecture, Java REST based technology stack and related solutions, technology consultant and leader"],
@@ -104,6 +106,8 @@ export function content_rybar_cv(): JsonMLs {
                     ["div.w3-container.w3-half",
                         ["h3", "Project leader on projects"],
                         ["ul",
+                            ["li", "TREETI (DECENT Go) - CTO, Solution architect for Blockchain ", ["abbr", { title: "Video on demand" }, `VOD`], " Platform"],
+                            ["li", "DECENT.ch - Solution architect for Blockchain Web Platform"],
                             ["li", "Slot games html5 client - Next generation HTML5/TypeScript Game Client infrastructure and dev stack for slot games production."],
                             ["li", "Slot games server - Next generation Game Server and related analytical and business intelligence tools."],
                             ["li", "DTA v2 - Document Text Analyser second generation engine."],
@@ -117,7 +121,7 @@ export function content_rybar_cv(): JsonMLs {
                             ["li", "NPR Loader - High performance NPR data format parser and DB loader (C/C++, Oracle)"],
                             ["li", "SPP GPS Monitoring - vehicle GPS tracking system with web IU (Java, Javascript, pREST, Oracle)"],
                             ["li", "Online insurance - web applications for online distribution of insurance"],
-                            ["li", "flipo.pl - online flight tickets booking and insurance web site and backoffice. Memeber of portals of pelicantravel.com s.r.o. They were forced to stop using ", ["a.w3-text-blue", { href: "prest-web" }, `pREST web framework `], "in February 2013 because of not paying for software licenses."],
+                            ["li", "flipo.pl - online flight tickets booking and insurance web site and backoffice. Member of portals of pelicantravel.com s.r.o. They were forced to stop using ", ["a.w3-text-blue", { href: "prest-web" }, `pREST web framework `], "in February 2013 because of not paying for software licenses."],
                             ["li", ["a.w3-text-blue", { href: "prest-web" }, "pREST"], " - ROA (Resources oriented architecture) and REST Java web framework for servlet container, designed to effective development of RIA web applications, REST web services, data and application integration"]
                         ]
                     ]
@@ -145,7 +149,7 @@ export function content_rybar_cv(): JsonMLs {
                             ],
                             ["dt", "REST architecture"],
                             ["dd",
-                                ["a.w3-text-blue", { rel: "me", href: "http://lanyrd.com/2014/java-group-10-vyrocna/sczdkg/" }, "Java Group #10, REST (presentation in Slovak)"],
+                                ["a.w3-text-blue", { rel: "me", href: "http://lanyrd.com/2014/java-group-10-vyrocna/sczdkg/", target: "_blank" }, "Java Group #10, REST (presentation in Slovak)"],
                                 ["br"],
                                 ["a.w3-text-blue", { rel: "me", href: "docs/rest.pdf" }, "rest.pdf"],
                                 ["br"],
@@ -219,33 +223,33 @@ export function content_rybar_cv(): JsonMLs {
                                         "HTML5, XHTML, CSS, JavaScript, TypeSctipt, AJAX, RSS, Atom, MicroFormats, Microdata"
                                     ],
                                     ["li",
-                                        ["a.w3-text-blue", { href: "http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm" }, "REST"],
+                                        ["a.w3-text-blue", { href: "http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm", target: "_blank" }, "REST"],
                                         " , ",
-                                        ["a.w3-text-blue", { href: "http://www.xmlrpc.com" }, "XML-RPC"],
+                                        ["a.w3-text-blue", { href: "http://www.xmlrpc.com", target: "_blank" }, "XML-RPC"],
                                         " , SOAP"
                                     ],
                                     ["li",
-                                        ["a.w3-text-blue", { href: "http://www.yaml.org/" }, "YAML"],
+                                        ["a.w3-text-blue", { href: "http://www.yaml.org/", target: "_blank" }, "YAML"],
                                         ", XML, SGML"
                                     ],
                                     ["li",
                                         "JavaSE, JavaEE, JDO, JPA, Datanucleus, Hibernate"
                                     ],
                                     ["li",
-                                        "Servlet, Struts 2, ", ["a.w3-text-blue", { href: "http://turbogears.org/" }, "TurboGears"],
+                                        "Servlet, Struts 2, ", ["a.w3-text-blue", { href: "http://turbogears.org/", target: "_blank" }, "TurboGears"],
                                         ", ",
-                                        ["a.w3-text-blue", { href: "http://www.cherrypy.org/" }, "Cherrypy"],
+                                        ["a.w3-text-blue", { href: "http://www.cherrypy.org/", target: "_blank" }, "Cherrypy"],
                                         ", Ruby on Rails"
                                     ],
                                     ["li",
                                         "Apache, Tomcat, Jetty, Nginx, Lighttpd"
                                     ],
                                     ["li",
-                                        ["a.w3-text-blue", { href: "http://openid.net/" }, "OpenID"],
+                                        ["a.w3-text-blue", { href: "http://openid.net/", target: "_blank" }, "OpenID"],
                                         " - free, decentralized and easy way to use a single digital identity across the Internet."
                                     ],
                                     ["li",
-                                        ["a.w3-text-blue", { href: "http://spring.io/" }, "Spring"]
+                                        ["a.w3-text-blue", { href: "http://spring.io/", target: "_blank" }, "Spring"]
                                     ],
                                     ["li",
                                         ["strong", "pREST - Java web MVC framework"],
@@ -257,12 +261,12 @@ export function content_rybar_cv(): JsonMLs {
                             ["dd",
                                 ["ul",
                                     ["li",
-                                        ["a.w3-text-blue", { href: "http://www.elasticsearch.org/" }, "Elasticsearch"],
+                                        ["a.w3-text-blue", { href: "http://www.elasticsearch.org/", target: "_blank" }, "Elasticsearch"],
                                         ` – distributed, schema-free and document-oriented databases (NoSQL)
                                          and search engine for building very effective applications.`
                                     ],
                                     ["li",
-                                        ["a.w3-text-blue", { href: "http://korpus.juls.savba.sk/" }, "Slovenský národný korpus"]
+                                        ["a.w3-text-blue", { href: "http://korpus.juls.savba.sk/", target: "_blank" }, "Slovenský národný korpus"]
                                     ]
                                 ]
                             ],
@@ -270,16 +274,16 @@ export function content_rybar_cv(): JsonMLs {
                             ["dd",
                                 ["ul",
                                     ["li",
-                                        ["a.w3-text-blue", { href: "http://www.gnome.org/" }, "GNOME"]
+                                        ["a.w3-text-blue", { href: "http://www.gnome.org/", target: "_blank" }, "GNOME"]
                                     ],
                                     ["li",
-                                        ["a.w3-text-blue", { href: "http://gtk.org/" }, "GTK+"],
+                                        ["a.w3-text-blue", { href: "http://gtk.org/", target: "_blank" }, "GTK+"],
                                         ", ",
-                                        ["a.w3-text-blue", { href: "http://www.gtkmm.org/" }, "gtkmm"],
+                                        ["a.w3-text-blue", { href: "http://www.gtkmm.org/", target: "_blank" }, "gtkmm"],
                                         ", ",
-                                        ["a.w3-text-blue", { href: "http://www.pygtk.org/" }, "PyGTK"],
+                                        ["a.w3-text-blue", { href: "http://www.pygtk.org/", target: "_blank" }, "PyGTK"],
                                         ", ",
-                                        ["a.w3-text-blue", { href: "http://trolltech.com/products/qt" }, "QT"]
+                                        ["a.w3-text-blue", { href: "http://trolltech.com/products/qt", target: "_blank" }, "QT"]
                                     ]
                                 ]
                             ],
@@ -287,12 +291,12 @@ export function content_rybar_cv(): JsonMLs {
                             ["dd",
                                 ["ul",
                                     ["li",
-                                        ["a.w3-text-blue", { href: "http://www.kernel.org/" }, "Linux kernel"]
+                                        ["a.w3-text-blue", { href: "http://www.kernel.org/", target: "_blank" }, "Linux kernel"]
                                     ],
                                     ["li", "Linux as a network server"],
                                     ["li", "Linux as a network gateway, router and packet filter"],
                                     ["li",
-                                        ["a.w3-text-blue", { href: "http://dbus.freedesktop.org/" }, "D-Bus"]
+                                        ["a.w3-text-blue", { href: "http://dbus.freedesktop.org/", target: "_blank" }, "D-Bus"]
                                     ],
                                 ]
                             ],
@@ -323,7 +327,7 @@ export function content_rybar_cv(): JsonMLs {
                             ],
                             ["dt", "Interpreted Languages"],
                             ["dd",
-                                `Python, Ruby, PHP, Perl, JavaScript, TCL/TK, Pike, Lua`
+                                `Python, Ruby, PHP, Perl, Typescript/Javascript, TCL/TK, Pike, Lua`
                             ],
                             ["dt", "Shells"],
                             ["dd",
@@ -354,34 +358,34 @@ export function content_rybar_cv(): JsonMLs {
                              deployment to fulfill my growing needs. Linux is a winner.`
                         ],
                         ["dl",
-                            ["dt", ["a.w3-text-blue", { href: "http://www.linux.org/" }, "Linux"]],
+                            ["dt", ["a.w3-text-blue", { href: "http://www.linux.org/", target: "_blank" }, "Linux"]],
                             ["dd",
                                 "Among number of distributions I examined, I prefer ",
-                                ["a.w3-text-blue", { href: "http://www.debian.org" }, "Debian GNU/Linux"],
+                                ["a.w3-text-blue", { href: "http://www.debian.org", target: "_blank" }, "Debian GNU/Linux"],
                                 " and some of its clones (related projects) like ",
-                                ["a.w3-text-blue", { href: "http://www.ubuntu.com/" }, "Ubuntu"]
+                                ["a.w3-text-blue", { href: "http://www.ubuntu.com/", target: "_blank" }, "Ubuntu"]
                             ],
-                            ["dt", ["a.w3-text-blue", { href: "http://www.bsd.org" }, "BSD"]],
+                            ["dt", ["a.w3-text-blue", { href: "http://www.bsd.org", target: "_blank" }, "BSD"]],
                             ["dd",
                                 "I tried ",
-                                ["a.w3-text-blue", { href: "http://www.pcbsd.org" }, "PCBSD"],
+                                ["a.w3-text-blue", { href: "http://www.pcbsd.org", target: "_blank" }, "PCBSD"],
                                 ", ",
-                                ["a.w3-text-blue", { href: "http://www.openbsd.org" }, "OpenBSD"],
+                                ["a.w3-text-blue", { href: "http://www.openbsd.org", target: "_blank" }, "OpenBSD"],
                                 ", ",
-                                ["a.w3-text-blue", { href: "http://www.netbsd.org" }, "NetBSD"],
+                                ["a.w3-text-blue", { href: "http://www.netbsd.org", target: "_blank" }, "NetBSD"],
                                 " and ",
-                                ["a.w3-text-blue", { href: "http://www.freebsd.org" }, "FreeBSD"],
+                                ["a.w3-text-blue", { href: "http://www.freebsd.org", target: "_blank" }, "FreeBSD"],
                                 ", but I found more suitable System V like systems."
                             ],
-                            ["dt", ["a.w3-text-blue", { href: "http://www.apple.com/macosx/" }, "Mac OS X"]],
+                            ["dt", ["a.w3-text-blue", { href: "http://www.apple.com/macosx/", target: "_blank" }, "Mac OS X"]],
                             ["dd",
                                 "Nice GUI, good desktop choice."
                             ],
-                            ["dt", ["a.w3-text-blue", { href: "http://www.sun.com/solaris" }, "Solaris"]],
+                            ["dt", ["a.w3-text-blue", { href: "http://www.sun.com/solaris", target: "_blank" }, "Solaris"]],
                             ["dd",
                                 "Nice kernel, but user space and GUI seems to me out of date."
                             ],
-                            ["dt", ["a.w3-text-blue", { href: "http://wikipedia.org/wiki/Windows" }, "Windows"]],
+                            ["dt", ["a.w3-text-blue", { href: "http://wikipedia.org/wiki/Windows", target: "_blank" }, "Windows"]],
                             ["dd",
                                 "I grew up on this system, but I consider it as the worst choice.",
                                 ["br"],
@@ -475,8 +479,8 @@ export function content_rybar_cv(): JsonMLs {
                         ["ol",
                             ["li", `Slovak - native`],
                             ["li", `Czech - activ`],
-                            ["li", `English - fai`],
-                            ["li", `Russian - fai`],
+                            ["li", `English - fair`],
+                            ["li", `Russian - fair`],
                             ["li", `German - basic`]
                         ]
                     ]
