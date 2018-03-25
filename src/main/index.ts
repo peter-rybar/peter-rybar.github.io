@@ -5,7 +5,7 @@ import { jsonmls2htmls, } from "./prest/jsonml/jsonml-html";
 import { page } from "./components/page";
 import { appshell } from "./components/appshell";
 import { sidebar } from "./components/sidebar";
-import { content } from "./components/content";
+// import { content } from "./components/content";
 import { content_technology } from "./components/content-technology";
 import { content_rybar_cv } from "./components/content-rybar-cv";
 
@@ -17,7 +17,7 @@ function HTML(file: string, jsonmls: JsonMLs, pretty = false): void {
 }
 
 
-const siteTitle = "Peter Rybar";
+const siteTitle = "Peter Rybár";
 
 HTML("index.html",
     page(siteTitle,
@@ -39,32 +39,32 @@ HTML("technology.html",
     true
 );
 
-HTML("views.html",
-    page(siteTitle,
-        appshell(siteTitle, "Views",
-            sidebar("views.html"),
-            content("Views Title", "name views")
-        )
-    ),
-    true
-);
+// HTML("views.html",
+//     page(siteTitle,
+//         appshell(siteTitle, "Views",
+//             sidebar("views.html"),
+//             content("Views Title", "name views")
+//         )
+//     ),
+//     true
+// );
 
-HTML("news.html",
-    page(siteTitle,
-        appshell(siteTitle, "News",
-            sidebar("news.html"),
-            content("News Title", "name news")
-        )
-    ),
-    true
-);
+// HTML("news.html",
+//     page(siteTitle,
+//         appshell(siteTitle, "News",
+//             sidebar("news.html"),
+//             content("News Title", "name news")
+//         )
+//     ),
+//     true
+// );
 
-HTML("settings.html",
-    page(siteTitle,
-        appshell(siteTitle, "Settings",
-            sidebar("settings.html"),
-            content("Settings Title", "name settings")
-        )
-    ),
-    true
-);
+// HTML("settings.html",
+//     page(siteTitle,
+//         appshell(siteTitle, "Settings",
+//             sidebar("settings.html"),
+//             content("Settings Title", "name settings")
+//         )
+//     ),
+//     true
+// );

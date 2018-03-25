@@ -106,7 +106,7 @@ export function content_rybar_cv(): JsonMLs {
                     ["div.w3-container.w3-half",
                         ["h3", "Project leader on projects"],
                         ["ul",
-                            ["li", "TREETI (DECENT Go) - CTO, Solution architect for Blockchain ", ["abbr", { title: "Video on demand" }, `VOD`], " Platform"],
+                            ["li", "TREETI.com (DECENT Go) - CTO, Solution architect for Blockchain ", ["abbr", { title: "Video on demand" }, `VOD`], " Platform"],
                             ["li", "DECENT.ch - Solution architect for Blockchain Web Platform"],
                             ["li", "Slot games html5 client - Next generation HTML5/TypeScript Game Client infrastructure and dev stack for slot games production."],
                             ["li", "Slot games server - Next generation Game Server and related analytical and business intelligence tools."],
