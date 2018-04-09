@@ -8,6 +8,7 @@ import { sidebar } from "./components/sidebar";
 // import { content } from "./components/content";
 import { content_technology } from "./components/content-technology";
 import { content_rybar_cv } from "./components/content-rybar-cv";
+import { content_dextr } from "./components/content-dextr";
 
 function HTML(file: string, jsonmls: JsonMLs, pretty = false): void {
     const path = __dirname + "/../../dist/" + file;
@@ -20,7 +21,7 @@ function HTML(file: string, jsonmls: JsonMLs, pretty = false): void {
 const siteTitle = "Peter Rybár";
 
 HTML("index.html",
-    page(siteTitle,
+    page(siteTitle, "", "",
         appshell(siteTitle, "CV",
             sidebar("index.html"),
             content_rybar_cv()
@@ -30,7 +31,7 @@ HTML("index.html",
 );
 
 HTML("technology.html",
-    page(siteTitle,
+    page(siteTitle, "", "",
         appshell(siteTitle, "Technology",
             sidebar("technology.html"),
             content_technology()
@@ -39,32 +40,12 @@ HTML("technology.html",
     true
 );
 
-// HTML("views.html",
-//     page(siteTitle,
-//         appshell(siteTitle, "Views",
-//             sidebar("views.html"),
-//             content("Views Title", "name views")
-//         )
-//     ),
-//     true
-// );
-
-// HTML("news.html",
-//     page(siteTitle,
-//         appshell(siteTitle, "News",
-//             sidebar("news.html"),
-//             content("News Title", "name news")
-//         )
-//     ),
-//     true
-// );
-
-// HTML("settings.html",
-//     page(siteTitle,
-//         appshell(siteTitle, "Settings",
-//             sidebar("settings.html"),
-//             content("Settings Title", "name settings")
-//         )
-//     ),
-//     true
-// );
+HTML("dextr.html",
+    page(siteTitle, "", "",
+        appshell(siteTitle, "DExtr - Data Extractor",
+            sidebar("dextr.html"),
+            content_dextr()
+        )
+    ),
+    true
+);

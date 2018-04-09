@@ -10,7 +10,7 @@ export function sidebar(active: string): JsonMLs {
     const menu: Menu[] = [
         { url: "index.html", label: "Curriculum Vitae", icon: "i.fa.fa-eye.fa-fw" },
         { url: "technology.html", label: "Technology", icon: "i.fa.fa-users.fa-fw" },
-        // { url: "news.html", label: "News", icon: "i.fa.fa-bell.fa-fw" },
+        { url: "dextr.html", label: "Dextr - Data Extractor", icon: "i.fa.fa-bell.fa-fw" },
         // { url: "settings.html", label: "Settings", icon: "i.fa.fa-cog.fa-fw" }
     ];
     const nbsp = "\u00a0 ";
