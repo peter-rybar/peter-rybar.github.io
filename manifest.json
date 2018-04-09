@@ -1,0 +1,22 @@
+{
+  "name": "Peter Rybár",
+  "short_name": "Peter Rybár",
+  "description": "Peter Rybár - IT consultant, Project lead, Solutions architect, Technology leader",
+  "icons": [
+    {
+      "src": "assets/icons/icon.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "assets/icons/icon-large.png",
+      "type": "image/png",
+      "sizes": "144x144 256x256"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "orientation": "any"
+}

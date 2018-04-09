@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <title>
+            Peter Rybár
+        </title>
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="author" content="Peter Rybar, pr.rybar@gmail.com"/>
+        <meta name="robots" content="follow, all"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="assets/css/styles.css"/>
+        <style>
+            html, body, h1, h2, h3, h4, h5 { font-family: "Raleway", sans-serif }
+        </style>
+        <meta id="theme-color" name="theme-color" content="#37474F"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <link rel="manifest" href="manifest.json"/>
+    </head>
+    <body class="w3-light-grey">
+        <div class="w3-bar w3-top w3-large w3-blue" style="z-index:4">
+            <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();">
+                <i class="fa fa-bars">
+                </i>
+            </button>
+            <span class="w3-bar-item">
+                <strong>
+                    <a href="./" style="text-decoration: none;">
+                        Peter Rybár
+                    </a>
+                </strong>
+                <span>
+                     - Technology
+                </span>
+            </span>
+            <span class="w3-bar-item w3-right">
+                <a href="https://github.com/peter-rybar/peter-rybar.github.io" title="github" target="_blank">
+                    <i class="fa fa-github">
+                    </i>
+                </a>
+            </span>
+        </div>
+        <div id="sidebar" class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;">
+            <nav>
+                <br/>
+                <div class="w3-container w3-row">
+                    <div class="w3-col s4">
+                        <img class="w3-circle w3-margin-right" src="assets/rybar.png" style="width:60px"/>
+                    </div>
+                    <div class="w3-col s8 w3-bar">
+                        <span>
+                            <a class="w3-xlarge" href="index.html" style="text-decoration: none;">
+                                Peter Rybár
+                            </a>
+                        </span>
+                        <br/>
+                        <a class="w3-bar-item w3-button" href="mailto:pr.rybar@gmail.com" title="Mail">
+                            <i class="fa fa-envelope">
+                            </i>
+                        </a>
+                        <a class="w3-bar-item w3-button" href="https://www.linkedin.com/in/peter-rybar-9861996/" title="LinkedIn" target="_blank">
+                            <i class="fa fa-linkedin">
+                            </i>
+                        </a>
+                        <a class="w3-bar-item w3-button" href="https://plus.google.com/u/0/+PeterRyb%C3%A1r" title="Google+" target="_blank">
+                            <i class="fa fa-google-plus">
+                            </i>
+                        </a>
+                    </div>
+                </div>
+                <hr/>
+                <div class="w3-bar-block">
+                    <a class="w3-bar-item w3-button w3-padding" href="index.html">
+                        <i class="fa fa-eye fa-fw">
+                        </i>
+                          
+                        Curriculum Vitae
+                    </a>
+                    <a class="w3-bar-item w3-button w3-padding w3-gray w3-text-white" href="technology.html">
+                        <i class="fa fa-users fa-fw">
+                        </i>
+                          
+                        Technology
+                    </a>
+                    <a class="w3-bar-item w3-button w3-padding" href="dextr.html">
+                        <i class="fa fa-bell fa-fw">
+                        </i>
+                          
+                        Dextr - Data Extractor
+                    </a>
+                </div>
+                <hr/>
+                <div class="w3-center">
+                    <a class="w3-button" href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fpeter-rybar.github.io&title=Peter Rybar&source=https%3A%2F%2Fpeter-rybar.github.io" title="Share on LinkedIn" target="_blank">
+                        <i class="fa fa-linkedin">
+                        </i>
+                    </a>
+                    <a class="w3-button" href="https://plus.google.com/share?url=https%3A%2F%2Fpeter-rybar.github.io" title="Share on Google+" target="_blank">
+                        <i class="fa fa-google-plus">
+                        </i>
+                    </a>
+                    <a class="w3-button" href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fpeter-rybar.github.io&text=Peter Rybar:%20https%3A%2F%2Fpeter-rybar.github.io" title="Tweet" target="_blank">
+                        <i class="fa fa-twitter">
+                        </i>
+                    </a>
+                    <a class="w3-button" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpeter-rybar.github.io&quote=Peter Rybar" title="Share on Facebook" target="_blank">
+                        <i class="fa fa-facebook">
+                        </i>
+                    </a>
+                    <br/>
+                    Share
+                </div>
+                <br/>
+                <br/>
+            </nav>
+        </div>
+        <div id="overlay" class="w3-overlay w3-hide-large w3-animate-opacity" style="cursor:pointer" title="close side menu" onclick="w3_close();">
+             
+        </div>
+        <div class="w3-main" style="margin-left:300px;margin-top:43px;">
+            <div id="content" class="w3-container-">
+                <div class="w3-row">
+                    <div class="w3-container w3-card w3-white w3-margin">
+                        <h1>
+                            Technology
+                        </h1>
+                        <p>
+                            We offer
+                            <strong>
+                                elastic web technology stack 
+                            </strong>
+                            which is next and superior generation of extensible web technology stack.
+                            <strong>
+                                pREST solution stack 
+                            </strong>
+                            is a set of software subsystems or components needed to deliver a fully
+                    functional web solution, e.g. a product or service.
+                    Elasticity allows not only extend but also shrink in time according
+                    Your business requirements.
+                            <strong>
+                                Elasticity 
+                            </strong>
+                            is in harmony with
+                            <strong>
+                                cloud computing
+                            </strong>
+                            and all its types – IaaS PaaS SaaS.
+                        </p>
+                        <p class="w3-center">
+                            <img alt="pREST cloud computing" src="images/cloud-computing.jpg" style="width:100%;max-width:718px;"/>
+                        </p>
+                        <p>
+                            Maybe you can expand the services you currently offer
+                    by electronic channels instead of employees or contractors
+                    to do the same.
+                    In other words, you build on the brand you’ve built to scale up your operations.
+                    And/or you leverage your time more and more by offering low-ticket items,
+                    which are a stepping stone to your high-ticket services.
+                        </p>
+                    </div>
+                </div>
+                <div class="w3-row-padding">
+                    <div class="w3-half">
+                        <div class="w3-container w3-card w3-white w3-margin-">
+                            <h2>
+                                Frameworks
+                            </h2>
+                            <dl>
+                                <dt>
+                                    pREST web
+                                </dt>
+                                <dd>
+                                    Java 
+                                    <abbr title="Model-View-Controller">
+                                        MVC 
+                                    </abbr>
+                                    web framework designed for responsive and high performance web applications, 
+                                    <abbr title="Rich Internet Applications">
+                                        RIA 
+                                    </abbr>
+                                    web services and data/application integration development by 
+                                    <abbr title="Representational State Transfer">
+                                        REST 
+                                    </abbr>
+                                    architectural style.
+                                </dd>
+                                <dd>
+                                    <a class="w3-text-blue" href="prest-web">
+                                        more »
+                                    </a>
+                                </dd>
+                                <dt>
+                                    pREST cluster
+                                </dt>
+                                <dd>
+                                    Javascript library, it offers versatile widgets, forms,
+                            intensive development tools and also base for building responsive 
+                                    <abbr title="Asynchronous JavaScript and XML">
+                                        AJAX 
+                                    </abbr>
+                                    web applications without any restrictions.
+                                </dd>
+                                <dd>
+                                    <a class="w3-text-blue" href="prest-cluster">
+                                        more »
+                                    </a>
+                                </dd>
+                                <dt>
+                                    pPHP
+                                </dt>
+                                <dd>
+                                    Lightweight PHP web framework designed for
+                                    <abbr title="Rapid Application Development">
+                                        RAD 
+                                    </abbr>
+                                    of small web applications, landing pages, 
+                                    <abbr title="Rich Internet Applications">
+                                        RIA 
+                                    </abbr>
+                                    , 
+                                    <abbr title="Representational State Transfer">
+                                        REST 
+                                    </abbr>
+                                    web services by 
+                                    <abbr title="Representational State Transfer">
+                                        REST
+                                    </abbr>
+                                    architectural style.
+                                </dd>
+                                <dd>
+                                    <a class="w3-text-blue" href="pphp">
+                                        more »
+                                    </a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="w3-margin">
+                             
+                        </div>
+                    </div>
+                    <div class="w3-half">
+                        <div class="w3-container w3-card w3-white w3-margin-">
+                            <h2>
+                                Solutions
+                            </h2>
+                            <dl>
+                                <dt>
+                                    DExtr
+                                </dt>
+                                <dd>
+                                    Document Data Extractor is a new progressive tool for automated
+                            data extraction of valuable data from various document classes:
+                            invoices, bills, contracts, payslips ...
+                                </dd>
+                                <dd>
+                                    <a class="w3-text-blue" href="dextr">
+                                        more »
+                                    </a>
+                                </dd>
+                                <dt>
+                                    SWID
+                                </dt>
+                                <dd>
+                                    Identity management and "Single Sign On" solution for portal web applications.
+                                </dd>
+                                <dd>
+                                    <a class="w3-text-blue" href="swid">
+                                        more »
+                                    </a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="w3-margin">
+                             
+                        </div>
+                        <div class="w3-container w3-card w3-white w3-margin-">
+                            <h2>
+                                Applications
+                            </h2>
+                            <dl>
+                                <dt>
+                                    inflet
+                                </dt>
+                                <dd>
+                                    New, effective and futuristic approach to publishing, searching, and sharing of informations.
+                                </dd>
+                                <dd>
+                                    <a class="w3-text-blue" href="inflet">
+                                        more »
+                                    </a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="w3-margin">
+                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var sidebar = document.getElementById("sidebar");
+            var overlay = document.getElementById("overlay");
+            function w3_open() {
+                if (sidebar.style.display === 'block') {
+                    sidebar.style.display = 'none';
+                    overlay.style.display = "none";
+                } else {
+                    sidebar.style.display = 'block';
+                    overlay.style.display = "block";
+                }
+            }
+            function w3_close() {
+                sidebar.style.display = "none";
+                overlay.style.display = "none";
+            }
+        </script>
+        <script src="sw-init.js">
+        </script>
+    </body>
+</html>
