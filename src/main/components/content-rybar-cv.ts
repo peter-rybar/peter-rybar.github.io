@@ -81,7 +81,7 @@ export function content_rybar_cv(): JsonMLs {
                     ["div.w3-container.w3-half",
                         ["h3", "Partners and Projects"],
                         ["ul",
-                            ["li", "TREETI.com (DECENT Go) - Blockchain ", ["abbr", { title: "Video on demand" }, `VOD`], "distributiont platform"],
+                            ["li", "TREETI.com (DECENT Go) - Blockchain ", ["abbr", { title: "Video on demand" }, `VOD`], " distributiont platform"],
                             ["li", "DECENT.ch - Decentralized Blockchain/IPFS content distributiont"],
                             ["li", "Game Server provider architecture and implementation including REST services. HTML5 slot games technology stack introduced."],
                             ["li", "DAVINCIsoftware.sk - Project DTA v2 (Document Text Analyser), architecture and implementation of new generation data extraction engine."],

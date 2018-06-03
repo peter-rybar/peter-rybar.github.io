@@ -17,6 +17,7 @@ function HTML(file: string, jsonmls: JsonMLs, pretty = false): void {
     fs.writeFileSync(path, html);
 }
 
+const pretty = true;
 
 const siteTitle = "Peter Rybár";
 
@@ -27,7 +28,7 @@ HTML("index.html",
             content_rybar_cv()
         )
     ),
-    true
+    pretty
 );
 
 HTML("technology.html",
@@ -37,7 +38,7 @@ HTML("technology.html",
             content_technology()
         )
     ),
-    true
+    pretty
 );
 
 HTML("dextr.html",
@@ -47,5 +48,5 @@ HTML("dextr.html",
             content_dextr()
         )
     ),
-    true
+    pretty
 );
